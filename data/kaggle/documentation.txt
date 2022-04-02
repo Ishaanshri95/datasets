@@ -1,0 +1,7 @@
+submission1 was a dtc with max_depth=6 (worse than naive predictor)
+submission2 was a dtc with max_depth=3. (predicted 0 for all targets, hence as good as naive predictor)
+submission3 was wasted (naive again)
+submission4 was RFR with class balancing inbuilt into sklearn. (class balancing made all the difference, RFR probably didnt)
+
+
+
