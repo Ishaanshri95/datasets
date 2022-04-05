@@ -2,6 +2,7 @@ submission1 was a dtc with max_depth=6 (worse than naive predictor)
 submission2 was a dtc with max_depth=3. (predicted 0 for all targets, hence as good as naive predictor)
 submission3 was wasted (naive again)
 submission4 was RFR with class balancing inbuilt into sklearn. (class balancing made all the difference, RFR probably didnt)
-
+submission6 expected 90%, got 0.899 on kaggle: was SMOTE followed by RFR with max_depth=12
+submission7 expected 94.44, got 94.68 on kaggle: was SMOTE followed by XGB with max_depth=7, tts 0.3, random_split=811
 
 
