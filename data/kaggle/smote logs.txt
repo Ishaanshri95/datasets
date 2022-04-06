@@ -27,3 +27,143 @@ SMOTE + XGBClassifier from sklearn, n_estim = 40
 30 40 0.9394736842105263
 50 40 0.9384210526315789
 
+
+
+
+42 4 CatB with smote;  0.9914128016096069
+42 6 CatB with smote;  0.9902361608124772
+42 7 CatB with smote;  0.9865353562982973
+42 8 CatB with smote;  0.986281495333569
+42 10 CatB with smote; 0.983104154584058
+
+42 4 CatB with smote; 0.9920911601219646, min_child_samples = 1
+42 6 CatB with smote; 0.9887387494304156, min_child_samples = 1
+42 7 CatB with smote; 0.9893406222668343, min_child_samples = 1
+42 8 CatB with smote; 0.9885026219022347, min_child_samples = 1
+
+42 3 CatB with smote; 0.9914829850950193,  min_child_samples = 2
+42 4 CatB with smote; 0.9929143598875995,  min_child_samples = 2
+42 6 CatB with smote; 0.9907314147719307,  min_child_samples = 2
+42 7 CatB with smote; 0.9893093159307755,  min_child_samples = 2
+42 8 CatB with smote; 0.9886268787280116,  min_child_samples = 2
+42 10 CatB with smote; 0.985047766511862,  min_child_samples = 2
+42 12 CatB with smote; 0.9801415248278206, min_child_samples = 2
+
+42 2 CatB with smote; 0.9913255394606886, min_child_samples = 3
+42 3 CatB with smote; 0.9919204826157484, min_child_samples = 3
+42 4 CatB with smote; 0.9906317937818496, min_child_samples = 3
+42 6 CatB with smote; 0.9912925825509205, min_child_samples = 3
+42 7 CatB with smote; 0.9872258008297176, min_child_samples = 3
+42 8 CatB with smote; 0.9865742470887562, min_child_samples = 3
+
+42 2 CatB with smote; 0.9912244588723685, min_child_samples = 4
+42 3 CatB with smote; 0.9921418641093851, min_child_samples = 4
+42 4 CatB with smote; 0.9917354273848238, min_child_samples = 4
+42 6 CatB with smote; 0.9894405433612262, min_child_samples = 4
+42 7 CatB with smote; 0.9883481227465918, min_child_samples = 4
+42 8 CatB with smote; 0.9898143505625401, min_child_samples = 4
+
+42 2 CatB with smote; 0.9920351088213699, min_child_samples = 5
+42 3 CatB with smote; 0.9909453618633226, min_child_samples = 5
+42 4 CatB with smote; 0.9921550277757452, min_child_samples = 5
+42 6 CatB with smote; 0.9899398078055603, min_child_samples = 5
+42 7 CatB with smote; 0.9876900621985281, min_child_samples = 5
+42 8 CatB with smote; 0.989410560212356 , min_child_samples = 5
+
+(BETTER THAN PREVIOUS ITERATIONS???)
+42 2 CatB with smote; 0.9901405639483819, min_child_samples = 6
+42 3 CatB with smote; 0.9928011250746919, min_child_samples = 6
+42 4 CatB with smote; 0.9924482024051887, min_child_samples = 6
+42 6 CatB with smote; 0.9897025071423462, min_child_samples = 6
+42 7 CatB with smote; 0.9903848079340596, min_child_samples = 6
+42 8 CatB with smote; 0.9885650435988815, min_child_samples = 6
+
+42 2 CatB with smote; 0.9915930415304535 min_child_samples = 7
+42 3 CatB with smote; 0.9915824423918401 min_child_samples = 7
+42 4 CatB with smote; 0.9907345931494043 min_child_samples = 7
+42 6 CatB with smote; 0.9927985605469449 min_child_samples = 7
+42 7 CatB with smote; 0.9867962151499096 min_child_samples = 7
+42 8 CatB with smote; 0.9876786582347176 min_child_samples = 7
+
+
+42 2 CatB with smote; 0.9915930415304535 min_child_samples = 9
+42 3 CatB with smote; 0.9915824423918401 min_child_samples = 9
+42 4 CatB with smote; 0.9907345931494043 min_child_samples = 9
+42 6 CatB with smote; 0.9927985605469449 min_child_samples = 9
+42 7 CatB with smote; 0.9867962151499096 min_child_samples = 9
+42 8 CatB with smote; 0.9876786582347176 min_child_samples = 9
+
+
+42 2 CatB with smote; 0.9915930415304535 min_child_samples = 11
+42 3 CatB with smote; 0.9915824423918401 min_child_samples = 11
+42 4 CatB with smote; 0.9907345931494043 min_child_samples = 11
+42 6 CatB with smote; 0.9927985605469449 min_child_samples = 11
+42 7 CatB with smote; 0.9867962151499096 min_child_samples = 11
+42 8 CatB with smote; 0.9876786582347176 min_child_samples = 11
+
+42 2 CatB with smote; 0.9915930415304535 min_child_samples = 15
+42 3 CatB with smote; 0.9915824423918401 min_child_samples = 15
+42 4 CatB with smote; 0.9907345931494043 min_child_samples = 15
+42 6 CatB with smote; 0.9927985605469449 min_child_samples = 15
+42 7 CatB with smote; 0.9867962151499096 min_child_samples = 15
+42 8 CatB with smote; 0.9876786582347176 min_child_samples = 15
+
+
+
+
+
+
+42 2 XGBC without smote; 0.9813542352058002
+42 2 LGBM without smote; 0.9830097246071612
+
+42 4 XGBC without smote; 0.9909966697039347
+42 4 LGBM without smote; 0.992200878133037
+
+42 6 XGBC without smote; 0.9932838335909959
+42 6 LGBM without smote; 0.992728982372552
+
+42 7 XGBC without smote; 0.9919950749896133
+42 7 LGBM without smote; 0.9939834156843095
+
+42 8 XGBC without smote; 0.9932689741582577
+42 8 LGBM without smote; 0.9934300504091396
+
+42 9 XGBC without smote; 0.9935028616295567
+42 9 LGBM without smote; 0.9935513033802832
+
+42 10 XGBC without smote; 0.9925497776137295
+42 10 LGBM without smote; 0.9932523315935909
+
+42 12 XGBC without smote; 0.9914240269894847
+
+
+0 2 XGBC without smote; 0.9880866858237548
+0 2 LGBM without smote; 0.9901819923371648
+
+0 4 XGBC without smote; 0.9956896551724138
+0 4 LGBM without smote; 0.9968271072796935
+
+0 6 XGBC without smote; 0.993235153256705
+0 6 LGBM without smote; 0.9948515325670498
+
+0 7 XGBC without smote; 0.9947916666666666
+0 7 LGBM without smote; 0.9946719348659003
+
+0 8 XGBC without smote; 0.9947318007662835
+0 8 LGBM without smote; 0.9956297892720306
+
+0 9 XGBC without smote; 0.9931752873563219
+0 9 LGBM without smote; 0.9965277777777778
+
+0 10 XGBC without smote; 0.9926364942528736
+0 10 LGBM without smote; 0.9966475095785441
+
+0 12 XGBC without smote; 0.9943127394636014
+0 12 LGBM without smote; 0.9971863026819924
+
+0 15 XGBC without smote; 0.9944324712643677
+0 15 LGBM without smote; 0.9974856321839081
+
+
+
+
