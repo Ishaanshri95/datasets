@@ -8,3 +8,5 @@ submission9 expected 99+ got 99.3: SMOTE followed by LightGBM with max depth = 7
 submission10 expected 99.7 got 99.512: WITHOUT SMOTE with LightGBM with max_depth = 12 and 0.3 split with random_state = 0
 submission11 expected 99.7+got 99.516: WITHOUT SMOTE with LightGBM with max_depth = 12 and no tts before train
 submission12 expected 99.7+got 99.462: WITHOUT SMOTE with LightGBM with max_depth = 15 and no tts before train
+submission13 expected improvement got 99.500: WITHOUT SMOTE,  LGBM with max_depth= 7 and no tts before train and colsample_bytree=0.4
+submission14 expected improvement got 99.521: WITHOUT SMOTE,  LGBM with max_depth= 12 and no tts before train and colsample_bytree=0.4

@@ -165,5 +165,34 @@ SMOTE + XGBClassifier from sklearn, n_estim = 40
 0 15 LGBM without smote; 0.9974856321839081
 
 
+NOTE: i tried with and without SMOTE and made no diffeerence to lightgbm
+0 2 XGBC without smote 5foldCV; 0.9785296647832082
+0 2 LGBM without smote 5foldCV; 0.9810567644911794
+
+0 4 XGBC without smote 5foldCV; 0.9901991273899352
+0 4 LGBM without smote 5foldCV; 0.9905301453404167
+
+0 6 XGBC without smote 5foldCV; 0.9915082861279805
+0 6 LGBM without smote 5foldCV; 0.9913117875380978
+
+0 7 XGBC without smote 5foldCV; 0.9919891213806933
+0 7 LGBM without smote 5foldCV; 0.9924466780198855
+
+0 8 XGBC without smote 5foldCV; 0.991196326016361
+0 8 LGBM without smote 5foldCV; 0.9917058836419159
+
+0 9 XGBC without smote 5foldCV; 0.9914764929177966
+0 9 LGBM without smote 5foldCV; 0.9921469869485426
+
+0 10 XGBC without smote 5foldCV; 0.9918625275876416
+0 10 LGBM without smote 5foldCV; 0.9924842264838034
+
+0 12 XGBC without smote 5foldCV; 0.991662145345656
+0 12 LGBM without smote 5foldCV; 0.9925457390766781
+
+0 15 XGBC without smote 5foldCV; 0.9911717692930028
+0 15 LGBM without smote 5foldCV; 0.992824508024572
+
+
 
 
